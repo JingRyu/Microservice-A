@@ -22,21 +22,21 @@ In order to do these, you should:
 2. In a new terminal, type "python AgeVerificationClient.py"
 3. in your program, import AgeVerificationClient and call the method you need.
 
-   >import AgeVerificationClient
-   >
-   >age_verification = AgeVerificationClient.AgeVerificationClient()
-
-    # Request age verification
-    print(" [x] Requesting age verify(1994)")
-    response = age_verification.call('age_verification', 1994)
-    print(f" [.] Got {response}")
-    
-    # Request educational content
-    print(" [x] Requesting educational content")
-    response = age_verification.call('show_educational_content')
-    print(f" [.] Got {response}")
-    
-    # Request login attempts
-    print(" [x] Requesting login attempts")
-    response = age_verification.call('count_login_attempts')
-    print(f" [.] Got {response}")
+>import AgeVerificationClient
+>
+>age_verification = AgeVerificationClient.AgeVerificationClient()
+>
+># Request age verification
+>print(" [x] Requesting age verify(1994)")
+>response = age_verification.call('age_verification', 1994)
+>print(f" [.] Got {response}")
+>
+># Request educational content
+>print(" [x] Requesting educational content")
+>response = age_verification.call('show_educational_content')
+>print(f" [.] Got {response}")
+>    
+># Request login attempts
+>print(" [x] Requesting login attempts")
+>response = age_verification.call('count_login_attempts')
+>print(f" [.] Got {response}")
