@@ -18,9 +18,10 @@ No argument required
 
 In order to do these, you should:
 
-1. In the terminal, type "python AgeVerificationServer.py"
-2. In a new terminal, type "python AgeVerificationClient.py"
-3. in your program, import AgeVerificationClient and call the method you need.
+1. Install Python, RabbitMQ and Pika
+2. In the terminal, type "python AgeVerificationServer.py"
+3. In a new terminal, type "python AgeVerificationClient.py"
+4. in your program, import AgeVerificationClient and call the method you need. Use age_verification.call() to request data and waiting. The proper received data will be returned (see the following example code).
 
 >import AgeVerificationClient<br />
 >
