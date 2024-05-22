@@ -38,3 +38,6 @@ In order to do these, you should:
 >print(" [x] Requesting login attempts")<br />
 >response = age_verification.call('count_login_attempts')<br />
 >print(f" [.] Got {response}")<br />
+
+
+![9BBF3DE2-A080-4B16-98B0-146D127BC33D](https://github.com/JingRyu/Microservice-A/assets/81526024/f6328348-94b2-4999-b053-64b9ce74cb57)
