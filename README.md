@@ -22,7 +22,7 @@ In order to do these, you should:
 2. In a new terminal, type "python AgeVerificationClient.py"
 3. in your program, import AgeVerificationClient and call the method you need.
 
-><span style="font-size:0.5em;">import AgeVerificationClient
+>import AgeVerificationClient
 >
 >age_verification = AgeVerificationClient.AgeVerificationClient()
 >
@@ -36,4 +36,4 @@ In order to do these, you should:
 >    
 >print(" [x] Requesting login attempts")
 >response = age_verification.call('count_login_attempts')
->print(f" [.] Got {response}")</span>
+>print(f" [.] Got {response}")
