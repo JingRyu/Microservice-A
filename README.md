@@ -5,7 +5,7 @@ The age verification microservice handles age verification and provides educatio
 To request data from the Age Verification Microservice, you need to send a message to the RabbitMQ queue age_verify_queue with the following structure:
 
 For Age Verification:
-Method: age_verification
+/n Method: age_verification
 Argument: birth_year (integer)
 
 For Educational Content:
