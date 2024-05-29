@@ -15,7 +15,7 @@ No argument required
 Method: count_login_attempts<br />
 No argument required
 
-###To request data from the Age Verification Microservice, you should:
+### To request data from the Age Verification Microservice, you should:
 
 1. Install RabbitMQ and Pika
 2. Set Up the Requesting Program that connected to the same rabbitmq queue, and create a class with a 'call' method to send requests.
