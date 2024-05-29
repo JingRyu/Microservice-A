@@ -83,7 +83,7 @@ if __name__ == "__main__":
     response = age_verification.call('count_login_attempts')
     print(f" [.] Got {response}")
 ```
-###To receive data from the Age Verification Microservice, the responses are based on the method called:
+### To receive data from the Age Verification Microservice, the responses are based on the method called:
 For age_verification, it returns True or False.<br />
 For show_educational_content, it returns a string with educational content.<br />
 For count_login_attempts, it returns the number of login attempts.<br />
