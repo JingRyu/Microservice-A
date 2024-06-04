@@ -44,13 +44,14 @@ def on_request(ch, method, props, body):
     print(f" [.] {method_name}({arg})")
     if method_name == 'age_verification':
         response = age_verification(int(arg))
+        response = 'true' if response else 'false'
         print(f" [.] Total login attempts: {login_attempts}")
     elif method_name == 'show_educational_content':
         response = show_educational_content()
     elif method_name == 'count_login_attempts':
         response = count_login_attempts()
     else:
-        response = 'Unknown method'
+        response = 'Unknown method' 
 
     ch.basic_publish(exchange='',
                      routing_key=props.reply_to,
